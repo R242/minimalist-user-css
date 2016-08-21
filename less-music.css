@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("music.yandex.ru") {
+  .event__notify-wrap,
+  .smalladv_side,
+  .teaser,
+  .button-store_all,
+  .footer__main
+  {
+    display: none !important;
+  }
+}

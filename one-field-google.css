@@ -1,0 +1,30 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://www.google.") {
+  .jsb {
+    visibility: hidden;
+  }
+  #footer {
+    visibility: hidden;
+    display: none !important;
+  }
+  #fbarcnt {
+    visibility: hidden;
+    display: none !important;
+  }
+  #lga {
+    visibility: hidden;
+  }
+  #gb {
+    visibility: hidden;
+  }
+  #gs_st0 {
+    visibility: hidden;
+  }
+  .clearfooter + .footer {
+     display: none !important;
+  }
+  #extrares {
+     display: none !important;
+  }
+} 

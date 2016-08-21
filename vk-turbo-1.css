@@ -1,0 +1,179 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("vk.com") {
+  /*================
+  Colors and fonts 
+  ================*/
+  
+  body {
+    background: white;
+    font-family: Verdana, Roboto,"Open Sans",-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;
+    font-weight: 500 !important;
+    -webkit-font-smoothing: none !important;
+  }
+  body div{
+    line-height: 1.5em !important;
+    -webkit-font-smoothing: none !important;
+  }
+  .page_block {
+    position: relative;
+    background: #fff;
+    border-radius: 0px;
+    box-shadow: 0 0 0 1px #eee;
+  }
+  
+  /*==============
+  ULTIMATE SQUARE
+  ==============*/
+  
+  body,img,a,div,input,span,button,ul,li {
+    border-radius: 0 !important;
+  }
+  
+  /*========
+  Width fix
+  ========*/
+  
+  #page_layout {
+    width: calc(100% - 30px) !important;
+    max-width: 1000px;
+  }
+  #page_body{
+    width: calc(100% - 230px) !important;
+  }
+  .side_bar_inner,.im-right-menu.ui_rmenu {
+    width:150px
+  }
+  .scroll_fix:not(#page_layout) {
+    width:auto !important
+  }
+  .narrow_column_wrap,
+  .narrow_column {
+    width: 230px;  
+  }
+  #narrow_column {
+    margin-top: 0px !important;
+    position: absolute;
+    top: 0px;
+  }
+  .narrow_column_wrap {
+    position: absolute;
+    left: 5px;
+    top: 300px;
+  }
+  #page_header_cont {
+    position: absolute;
+  }
+  /*.ui_search {
+    position: absolute !important;
+  }*/
+  #side_bar_inner {
+    position: absolute !important;
+    left: 30px !important;
+    top: 0px !important;
+  }
+  .wide_column_left .wide_column_wrap {
+    margin-right: 0px;
+  }
+  .wide_column_right .wide_column_wrap {
+    margin-left: 0px;
+  }
+  /*.left_menu_nav_wrap .ui_actions_menu {
+    right: -125px;
+  }
+  .ui_actions_menu_top .ui_actions_menu:after, 
+  .ui_actions_menu_top .ui_actions_menu:before {
+    right:140.5px
+  }*/
+
+  /*=========
+  Pages 
+  =========*/
+
+  .wk_page_acts a {display: inline-block;width:30px;height:30px;background-size:100%}
+  #wk_page_acts {margin-left:0;top:60px;right:30px}
+  .wk_page_acts a.history{background-position: 0 -60px;}
+  .wk_page_acts a.edit{background-position: 0 -30px;}
+  
+  /*=========
+  COMPACT VK
+  =========*/
+
+  /* Gaps */
+  .page_block {
+    margin-top: 0px !important;
+  }
+  .im-page.im-page_classic {
+    padding-top: 5px;
+  }
+  .im-page.im-page_classic .im-page--header {
+    border-top-width: 5px;
+  }
+  .wr_header {
+    margin-top: 5px;
+  }
+  /* dialog messages */
+  .im-page.im-page_classic .im-mess {
+    padding-bottom: 5px;
+    padding-top: 0px;
+  }
+  /* dialog header */
+  .im-page.im-page_classic .im-page--header-inner,
+  .im-page.im-page_classic .im-page--header-chat {
+    height: 35px;
+    max-height: 35px;
+  }  
+  .im-page.im-page_classic .im-page--header-inner {
+    margin-top: -12px;
+  }
+  .im-page.im-page_classic .im-page--back-button {
+    padding-top: 8px;
+    padding-bottom: 5px;
+  }
+  .ui_actions_menu_icons {
+    height: 35px;
+    max-height: 35px;
+    top: -8;
+  }
+  /* dialog input */
+  .im-page.im-page_classic .im-page--chat-input {
+    border-bottom-width: 0px;
+  }
+  .im-chat-input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  /* unread color */
+  .im-page.im-page_classic .nim-dialog_unread-out {
+    border-left-width: 10px;
+    border-left-color: #000;
+  }
+  
+  /*=========
+  MINIMAL VK
+  =========*/
+  
+  /* likes */
+  .post_full_like_wrap,
+  .like_wrap,
+  /* right col */
+  .hot,
+  #friends_possible_block,
+  #groups_filters_wrap,
+  /* page header */
+  .page_block_h2,
+  .feed_post_field_wrap,
+  /* dialogs footer */
+  .im-page--dialogs-footer,
+  #stl_side,
+  #stl_left,
+  /* top name */
+  .top_profile_name,
+  /* left col */ 
+  .left_menu_nav_wrap,
+  #ads_left,
+  /* left col icons */ 
+  .left_icon {
+    display: none !important;
+  }
+}
